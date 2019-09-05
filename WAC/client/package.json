@@ -1,0 +1,38 @@
+{
+  "name": "woc",
+  "version": "0.1.0",
+  "author": "millionsofbugs",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "react": "^16.8.6",
+    "react-animated-weather": "^3.0.0",
+    "react-dom": "^16.8.6",
+    "react-facebook-login": "^4.1.1",
+    "react-loader-spinner": "^2.3.0",
+    "react-scripts": "3.0.1",
+    "react-skycons": "^0.7.0",
+    "recharts": "^1.6.2"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

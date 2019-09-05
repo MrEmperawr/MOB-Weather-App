@@ -1,0 +1,157 @@
+.Home {
+  min-width: 100%;
+}
+.Home__body {
+  color: white;
+}
+
+.Home__spinner {
+  padding-top: 5rem;
+}
+
+.Home__summary {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto; 
+  grid-template-areas: 
+    "location location"
+    "temperature weathericon"
+    "apparentPrecipitation summary"
+    "chart chart"
+    "humidity pressure"
+    "windspeed visibility"
+    "emission aq";
+    padding-bottom: 2rem;
+}
+
+.Home__summary_location {
+  grid-area: location;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.Home__summary_location > h1 {
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+.Home__summary_location > h6 {
+  font-size: 1.5rem;
+  margin: 0;
+  opacity: 0.78;
+}
+
+.Home__summary__temp {
+  grid-area: temperature;
+  text-align: center;
+  padding: 1.8rem;
+}
+
+.Home__summary__temp > p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25vw !important;
+}
+
+.Home__summary__weathericon {
+  overflow: hidden;
+  grid-area: weathericon;
+  text-align: center;
+}
+
+.Home__summary__apparentPrecipitation {
+  display: flex;
+  grid-area: apparentPrecipitation;
+  text-align: center;
+  padding-left: 3rem;
+}
+
+.Home__summary__apparent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 3rem; 
+}
+
+.Home__summary__precipitation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Home__summary__summary {
+  grid-area: summary;
+  text-align: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.Home__summary__summary > p {
+  font-size: 7vw !important;
+}
+
+.Home__summary__chart {
+  grid-area: chart;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.Home__summary__humidity {
+  grid-area: humidity;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Home__summary__pressure {
+  grid-area: pressure;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Home__summary__windspeed {
+  grid-area: windspeed;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Home__summary__visibility {
+  grid-area: visibility;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Home__summary__emission {
+  grid-area: emission;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Home__summary__aq {
+  grid-area: aq;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Home__summary p {
+  color: white;
+  font-size: 5vw;
+}
+
+.Home__summary__icon{
+  width: 10vw;
+}
+
+.summary__weathericon--size {
+  width: 40vw;
+}
+
+.textGreen {
+  color: lightgreen !important;
+}
+
+.textYellow {
+  color:  gold !important;
+}
+
+.textRed {
+  color: lightpink !important;
+}
